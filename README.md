@@ -3,7 +3,7 @@
 Repo for our bicopter attitude control study. The project compares Lead and PID controllers on linearized attitude dynamics and then checks behavior on the nonlinear plant.
 
 <p align="center">
-  <img src="docs/figures/bicopter_overview_2.png" width="640" alt="Bicopter attitude control overview">
+  <img src="docs/figures/bicopter_overview_3.png" width="640" alt="Bicopter attitude control overview">
 </p>
 
 
