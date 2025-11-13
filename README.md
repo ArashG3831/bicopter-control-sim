@@ -45,7 +45,7 @@ Repo for our bicopter attitude control study. The project compares Lead and PID 
 3. **Controller design**  
    Use `docs/Compensator.m` as a scratchpad to:
    - extract/define a linear model around hover,
-   - design a **Lead** or **PID** controller to your target rise‑time/overshoot,
+   - design a Lead or PID controller to your target rise‑time/overshoot,
    - update gains back into `ControlSimulation.slx` and re‑run.
 
 4. **Figures**  
