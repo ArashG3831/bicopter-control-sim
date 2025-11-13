@@ -29,13 +29,11 @@ Repo for our **bicopter attitude control** study. The project compares **Lead** 
 └─ report.pdf
 ```
 
----
 
 ## Requirements
 - **MATLAB & Simulink** (R2022a or newer recommended)
 - Control System Toolbox (for linear analysis/tuning)
 
----
 
 ## Quickstart
 1. **Nonlinear plant**  
@@ -53,14 +51,12 @@ Repo for our **bicopter attitude control** study. The project compares **Lead** 
 4. **Figures**  
    Save generated plots into **figs/** (the slides and report expect figures from here).
 
----
 
 ## Notes
 - **Lead** gives low overshoot but shows **steady‑state error** under step disturbances (type‑0).  
 - **PID/PI** removes steady‑state error but can increase overshoot unless tuned carefully (consider derivative filtering and anti‑windup).  
 - Expect differences when the same controller is applied to the **nonlinear** model (coupling, saturation).
 
----
 
 ## Next steps
 - Add actuator/motor limits and anti‑windup blocks to the Simulink models.  
