@@ -1,6 +1,6 @@
 # Bicopter Attitude Control (Simulink)
 
-Repo for our **bicopter attitude control** study. The project compares **Lead** and **PID** controllers on linearized attitude dynamics and then checks behavior on the **nonlinear** plant.
+Repo for our bicopter attitude control study. The project compares Lead and PID controllers on linearized attitude dynamics and then checks behavior on the nonlinear plant.
 
 <p align="center">
   <img src="docs/figures/bicopter_overview.png" width="640" alt="Bicopter attitude control overview">
@@ -49,13 +49,13 @@ Repo for our **bicopter attitude control** study. The project compares **Lead** 
    - update gains back into `ControlSimulation.slx` and re‑run.
 
 4. **Figures**  
-   Save generated plots into **figs/** (the slides and report expect figures from here).
+   Save generated plots into figs (the slides and report expect figures from here).
 
 
 ## Notes
-- **Lead** gives low overshoot but shows **steady‑state error** under step disturbances (type‑0).  
+- **Lead** gives low overshoot but shows steady‑state error under step disturbances (type‑0).  
 - **PID/PI** removes steady‑state error but can increase overshoot unless tuned carefully (consider derivative filtering and anti‑windup).  
-- Expect differences when the same controller is applied to the **nonlinear** model (coupling, saturation).
+- Expect differences when the same controller is applied to the nonlinear model (coupling, saturation).
 
 
 ## Next steps
