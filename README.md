@@ -5,6 +5,7 @@ Repo for our **bicopter attitude control** study. The project compares **Lead** 
 <p align="center">
   <img src="docs/figures/bicopter_overview.png" width="640" alt="Bicopter attitude control overview">
 </p>
+
 ---
 
 ## What this repo contains
